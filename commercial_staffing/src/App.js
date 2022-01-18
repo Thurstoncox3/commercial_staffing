@@ -1,5 +1,5 @@
 import Container from "react-bootstrap/Container";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from "react";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -14,9 +14,9 @@ function App(){
       <Router basename='/'>
         <Header />
         <Routes>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/about' component={About} />
-          <Route exact path='/contact' component={Contact} />
+          <Route path='/' exact component={Home} />
+          <Route path='/About' exact component={About} />
+          <Route path='/Contact' exact component={Contact} />
         </Routes>
         <Footer />
       </Router>
