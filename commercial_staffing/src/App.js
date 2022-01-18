@@ -1,5 +1,5 @@
 import Container from "react-bootstrap/Container";
-import { HashRouter as Router, Route, Switch } from "react-react-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import React from "react";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -13,11 +13,11 @@ function App(){
     <Container fluid className='p-0'>
       <Router basename='/'>
         <Header />
-        <Switch>
+        <Routes>
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
           <Route exact path='/contact' component={Contact} />
-        </Switch>
+        </Routes>
         <Footer />
       </Router>
     </Container>

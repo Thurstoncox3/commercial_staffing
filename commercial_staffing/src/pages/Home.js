@@ -1,4 +1,4 @@
-import { user } from '../assets/Data';
+import { user } from '../Assets/Data';
 
 const Home = () => (
     <div>

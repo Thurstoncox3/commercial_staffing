@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faMobile } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons';
-import { user } from '../assets/Data';
+import { user } from '../Assets/Data';
 import Button from 'react-bootstrap/Button';
 
 const Contact = () => (

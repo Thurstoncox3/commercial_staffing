@@ -1,4 +1,4 @@
-import { about } from '../assts/Data';
+import { about } from '../Assets/Data';
 import Button from 'react-bootstrap/Button';
 
 const AboutList = () => {
