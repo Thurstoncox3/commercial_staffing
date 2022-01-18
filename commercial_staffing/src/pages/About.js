@@ -1,7 +1,7 @@
 import AboutList from '../components/AboutList';
 
 const About = () => {
-    retrun (
+    return (
         <div className='about'>
             <main className='container'>
                 <section className='row'>

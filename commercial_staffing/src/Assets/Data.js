@@ -1,14 +1,15 @@
-import groupClean from '../Assets/images/group_clean.jpg';
-import cautionClean from '../Assets/images/caution_clean.jpg';
-import messyClean from '../Assets/images/messy_clean.jpg';
-// import relaxClean from '../Assets/images/relax_clean.jpg';
-import scrubberClean from '../Assets/images/scrubber_clean.jpg';
+// import groupClean from './images/group_clean.jpg';
+import cautionClean from './images/caution_clean.jpg';
+import messyClean from './images/messy_clean.jpg';
+// import relaxClean from './images/relax_clean.jpg';
+import scrubberClean from './images/scrubber_clean.jpg';
+import c4Staffing from './images/c4_staffing.JPEG';
 
 const user = {
     name: "Commercial Staffing",
-    aboutPic: groupClean,
+    aboutPic: c4Staffing,
     jobTitle: 'Cleaning with Kindness',
-    altTag: 'Group Cleaning',
+    altTag: 'c4Staffing',
     email: 'inquiries@commercialstaffing.com',
     mobile: '919.555.5555',
     linkedin: 'https://www.linkedin.com/commercialstaffing-c4',
@@ -19,6 +20,7 @@ const user = {
 
 const about = [
     {
+        id: 1,
         image: cautionClean,
         altTag: '3d caution figure',
         name: 'Janitorial',
@@ -29,6 +31,7 @@ const about = [
         // linkBtnName: 'Careers',
     },
     {
+        id: 2,
         image: scrubberClean,
         altTag: '3d scrubber figure',
         name: 'High-Speed Buffing',
@@ -39,6 +42,7 @@ const about = [
         // linkBtnName: 'Careers',
     },
     {
+        id: 3,
         image: messyClean,
         altTag: '3d messy figure',
         name: 'Pressure Washing',

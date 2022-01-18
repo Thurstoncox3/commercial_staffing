@@ -4,9 +4,8 @@ import Button from 'react-bootstrap/Button';
 const AboutList = () => {
     return(
         <>
-        {
-            about.map((about) => (
-                <div key = {about.id} className='col-lg-4' id='about'>
+        {about.map((about) => (
+                <div key={about.id} className='col-lg-4' id='about'>
                     <div className='card mb-3'>
                         <img
                             className='card-img-top img-fluid'
@@ -25,10 +24,10 @@ const AboutList = () => {
                     </article>
                     </div>
                 </div>
-            ))
-        }
+            ))}
         </>
     )
 }
 
 export default AboutList;
+

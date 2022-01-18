@@ -29,11 +29,11 @@ const Contact = () => (
                         <div className='form-group row'>
                             <label htmlFor='inputMessage' className='col-sm-2 form-control-label text-sm-right'>Message: </label>
                             <div className='col-sm-8'>
-                                <textarea className='form-control' id='comment' rows='5' placeholder='Write us a Message'></textarea>
+                                <textarea className='form-control' placeholder='Write us a Message' rows='5' id='comment'></textarea>
                             </div>
                         </div>
-                        <div className='col-sm-12 text center'>
-                            <Button type='submit' style={{ backgroundColor: '#7c5a9d', border: 'none' }}>Submit</Button>
+                        <div className='col-sm-12 text-center'>
+                            <Button type='submit' style={{ backgroundColor: '#bd030d', border: 'none' }}>Submit</Button>
                         </div>
                     </form>
                 </div>

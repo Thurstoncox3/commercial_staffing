@@ -1,51 +1,13 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 .bg{
   background-size: cover;
   background-repeat: no-repeat;
-  height: 50vh;
+  /* height: 50vh; */
   text-align: center;
-  background-color: #c0c1ed;
+  background-color: rgb(143, 140, 140);
 }
 
 .bg2{
-  background-image:'./Assets/images/raleigh_skyline.jpg';
+  background-image: url('./Assets/images/raleigh_skyline.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -55,21 +17,21 @@
 }
 
 .bg3{
-  height: 50vh;
+  height: 100vh;
   text-align: center;
-  background-color: #dedaf3;
+  background-color: #a86b6b;
 }
 
 .about{
-  background-image:'./Assets/images/c4_staffing.JPEG';
-  padding-top: 70px;
+  color: whitesmoke;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #ffacb0;
+  background-color: #bd030d;
+  border-radius: 15%;
 }
 
 .about-wrapper {
-  padding-top: 100px;
+  padding-top: 20px;
 }
 
 .skills-wrapper {
@@ -93,7 +55,7 @@ margin-bottom: 10px;
 
 .me-image img {
   width: 250px;
-  border-radius: 50%;
+  border-radius: 15%;
 }
 
 .socials {
@@ -102,7 +64,7 @@ margin-bottom: 10px;
 
 .socials span {
   font-size: 150%;
-  color: #ffacb0;
+  color: whitesmoke;
 }
 
 .socials p{
@@ -110,12 +72,14 @@ margin-bottom: 10px;
 }
 
 div .hero-text{
-  position: fixed;
-  background-color: #ffacb0 ;
+  position: absolute;
+  border-radius: 5%;
+  background-color: #a86b6b;
+  color: whitesmoke;
   top: 45%;
   padding-left: 50px;
   z-index: 1;
-  width: 50%;
+  width: 35%;
 }
 
 .nav-wrapper {
@@ -124,7 +88,7 @@ div .hero-text{
   z-index: 1;
   width: 100%;
   height: 50px;
-  background-color: #ffacb0;
+  background-color: #bd030d;
 }
 
 .nav {
@@ -136,11 +100,11 @@ div .hero-text{
 }
 
 .nav-link:hover {
-  color:#7c5a9d;
+  color:whitesmoke;
 }
 
 .skills-list h4 {
-  color:#7c5a9d;
+  color:whitesmoke;
 }
 
 @media only screen and (max-width: 800px) {

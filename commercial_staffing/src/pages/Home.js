@@ -14,9 +14,9 @@ const Home = () => (
                     <div className='me-text col'>
                         <h3 className='col about' style={{ fontSize: '260%' }}>About</h3>
                         <div className='line'></div>
-                        <p>{user.p1}</p>
-                        <p>{user.p2}</p>
-                        <p>{user.p4}</p>
+                        <p><strong>{user.p1}</strong></p>
+                        <p><strong>{user.p2}</strong></p>
+                        <p><strong>{user.p3}</strong></p>
                     </div>
                     <div className='me-image col'>
                         <img src={user.aboutPic} alt={user.altTag} />
@@ -35,21 +35,21 @@ const Home = () => (
                         <img src='' alt=''/>
                         <h4>Commercial Floor Cleaning</h4>
                         <p>
-                            a;ldjfajdfajhd;kag;jkd;fajksd;fajs;kldjfa;lsdjfasdj;flajsd;klfjadkfjlasdjf;lajkdfadjfadjf;lajkdf;jadfjka;jdfas;
+                            <strong>a;ldjfajdfajhd;kag;jkd;fajksd;fajs;kldjfa;lsdjfasdj;flajsd;klfjadkfjlasdjf;lajkdfadjfadjf;lajkdf;jadfjka;jdfas;</strong>
                         </p>
                     </div>
                     <div className='col'>
                         <img src='' alt=''/>
                         <h4>Industrial Scale Cleaning</h4>
                         <p>
-                            a;ldjfajdfajhd;kag;jkd;fajksd;fajs;kldjfa;lsdjfasdj;flajsd;klfjadkfjlasdjf;lajkdfadjfadjf;lajkdf;jadfjka;jdfas;
+                        <strong>a;ldjfajdfajhd;kag;jkd;fajksd;fajs;kldjfa;lsdjfasdj;flajsd;klfjadkfjlasdjf;lajkdfadjfadjf;lajkdf;jadfjka;jdfas;</strong>
                         </p>
                     </div>
                     <div className='col'>
                         <img src='' alt=''/>
                         <h4>Janitorial Services</h4>
                         <p>
-                            a;ldjfajdfajhd;kag;jkd;fajksd;fajs;kldjfa;lsdjfasdj;flajsd;klfjadkfjlasdjf;lajkdfadjfadjf;lajkdf;jadfjka;jdfas;
+                        <strong>a;ldjfajdfajhd;kag;jkd;fajksd;fajs;kldjfa;lsdjfasdj;flajsd;klfjadkfjlasdjf;lajkdfadjfadjf;lajkdf;jadfjka;jdfas;</strong>
                         </p>
                     </div>
                 </div>
