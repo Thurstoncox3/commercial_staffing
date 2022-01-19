@@ -1,7 +1,7 @@
 // import groupClean from './images/group_clean.jpg';
 import cautionClean from './images/caution_clean.jpg';
-import messyClean from './images/messy_clean.jpg';
-// import relaxClean from './images/relax_clean.jpg';
+// import messyClean from './images/messy_clean.jpg';
+import relaxClean from './images/relax_clean.jpg';
 import scrubberClean from './images/scrubber_clean.jpg';
 import c4Staffing from './images/c4_staffing.JPEG';
 
@@ -18,7 +18,7 @@ const user = {
     p3: 'We look to focus on your commercail cleanliness, so that is is noticiable to clients, and is immaculate in the publics image.'
 };
 
-const about = [
+const abouts = [
     {
         id: 1,
         image: cautionClean,
@@ -43,7 +43,7 @@ const about = [
     },
     {
         id: 3,
-        image: messyClean,
+        image: relaxClean,
         altTag: '3d messy figure',
         name: 'Pressure Washing',
         description: 'Surface preparation, makes your business stand out! Our employees focus on your care inside and out, our pressure washing services are used fore loose and peeling paint, dirt, mold and many other functions.',
@@ -55,4 +55,7 @@ const about = [
     
 ];
 
-export { user, about };
+export { user, abouts };
+
+
+

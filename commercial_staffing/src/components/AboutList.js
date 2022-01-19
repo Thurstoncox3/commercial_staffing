@@ -1,11 +1,11 @@
-import { about } from '../Assets/Data';
+import { abouts } from '../Assets/Data';
 import Button from 'react-bootstrap/Button';
 
 const AboutList = () => {
     return(
         <>
-        {about.map((about) => (
-                <div key={about.id} className='col-lg-4' id='about'>
+        {abouts.map((about) => (
+                <div key={about.id} className='col-lg-3' id='about'>
                     <div className='card mb-3'>
                         <img
                             className='card-img-top img-fluid'

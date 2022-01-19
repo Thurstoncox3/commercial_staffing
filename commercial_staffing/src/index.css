@@ -1,9 +1,9 @@
-html {
+html { 
   height: 100%;
 }
 
 body {
-  background-color: #ece6f5;
+  background-color: #a86b6b;
   height: 100%;
   margin: 0;
   padding:0;
@@ -36,4 +36,5 @@ footer {
   color: white;
   background-color: #bd030d;
   font-size: smaller;
-}
+} 
+

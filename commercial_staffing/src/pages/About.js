@@ -2,7 +2,7 @@ import AboutList from '../components/AboutList';
 
 const About = () => {
     return (
-        <div className='about'>
+        <div className='about2'>
             <main className='container'>
                 <section className='row'>
                     <h3 className='col-12 connect' style={{ fontSize: '260%' }}>Our Work</h3>

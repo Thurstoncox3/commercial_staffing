@@ -17,7 +17,7 @@
 }
 
 .bg3{
-  height: 100vh;
+  height: 50vh;
   text-align: center;
   background-color: #a86b6b;
 }
@@ -30,6 +30,14 @@
   border-radius: 15%;
 }
 
+.about2{
+  color: whitesmoke;
+  padding-top: 55px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(143, 140, 140);
+}
+
 .about-wrapper {
   padding-top: 20px;
 }
@@ -39,23 +47,30 @@
 }
 
 .connect-wrapper {
+  color: whitesmoke;
   padding-top: 70px;
 }
 
 .line {
 width: 50px;
-border-bottom: 1px solid #ffacb0;
+border-bottom: 1px solid #bd030d;
 margin: 0 auto;
-margin-bottom: 10px;
+margin-bottom: 20px;
 }
 
 .line2 {
-  border-bottom: 1px solid #7c5a9d;
-  }
+  border-bottom: 1px solid #bd030d;
+  margin-bottom: 15px;
+}
 
 .me-image img {
   width: 250px;
   border-radius: 15%;
+  margin-left: 25%;
+}
+
+.form-group{
+  margin-bottom: 1rem;
 }
 
 .socials {
@@ -63,7 +78,7 @@ margin-bottom: 10px;
 }
 
 .socials span {
-  font-size: 150%;
+  font-size: 250%;
   color: whitesmoke;
 }
 

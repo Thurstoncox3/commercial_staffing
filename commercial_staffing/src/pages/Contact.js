@@ -32,6 +32,7 @@ const Contact = () => (
                                 <textarea className='form-control' placeholder='Write us a Message' rows='5' id='comment'></textarea>
                             </div>
                         </div>
+
                         <div className='col-sm-12 text-center'>
                             <Button type='submit' style={{ backgroundColor: '#bd030d', border: 'none' }}>Submit</Button>
                         </div>
